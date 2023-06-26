@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FE7A1B72-C5B7-4D7C-BB7D-76384D4DE8E1}") = "TcHmiExportHistorizeTrendData", "TcHmiExportHistorizeTrendData\TcHmiExportHistorizeTrendData.hmiproj", "{7C6AEE6A-1DBC-46DE-A6F5-DB5463EBAA6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|TwinCAT HMI = Debug|TwinCAT HMI
+		Release|TwinCAT HMI = Release|TwinCAT HMI
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C6AEE6A-1DBC-46DE-A6F5-DB5463EBAA6A}.Debug|TwinCAT HMI.ActiveCfg = Debug|TwinCAT HMI
+		{7C6AEE6A-1DBC-46DE-A6F5-DB5463EBAA6A}.Debug|TwinCAT HMI.Build.0 = Debug|TwinCAT HMI
+		{7C6AEE6A-1DBC-46DE-A6F5-DB5463EBAA6A}.Release|TwinCAT HMI.ActiveCfg = Release|TwinCAT HMI
+		{7C6AEE6A-1DBC-46DE-A6F5-DB5463EBAA6A}.Release|TwinCAT HMI.Build.0 = Release|TwinCAT HMI
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {973A7A00-5338-42ED-AB5F-095FCDFA0CBD}
+	EndGlobalSection
+EndGlobal
