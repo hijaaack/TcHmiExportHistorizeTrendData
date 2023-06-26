@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="MAIN" Id="{a27a9b3e-2c42-4f26-a437-74b050783276}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	fbGen : GEN;
+	nOut: INT;
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[fbGen(
+	MODE:= SINE, 
+	BASE:= TRUE, 
+	PERIOD:= T#200MS, 
+	CYCLES:= 200, 
+	AMPLITUDE:= 10, 
+	RESET:= , 
+	OUT=> nOut);]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="11" Count="7" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
