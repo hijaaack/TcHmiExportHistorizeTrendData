@@ -1,0 +1,13 @@
+{
+    "enableBackup": false,
+    "historizedSymbolList": {
+        "PLC1.MAIN.nOut": {
+            "interval": "PT0.1S",
+            "maxEntries": 1000,
+            "recordingEnabled": true,
+            "rowLimit": 100000
+        }
+    },
+    "inMemory": false,
+    "maxBackups": 1
+}

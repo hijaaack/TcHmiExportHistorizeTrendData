@@ -50,6 +50,16 @@
       "name": "Fonts/Fonts.css",
       "description": "",
       "type": "Stylesheet"
+    },
+    {
+      "name": "JS/DeleteData.js",
+      "description": "",
+      "type": "JavaScript"
+    },
+    {
+      "name": "JS/ExportData.js",
+      "description": "",
+      "type": "JavaScript"
     }
   ],
   "userControls": [],
@@ -62,7 +72,14 @@
       "preloadBindings": false
     }
   ],
-  "userFunctions": [],
+  "userFunctions": [
+    {
+      "url": "JS/DeleteData.js"
+    },
+    {
+      "url": "JS/ExportData.js"
+    }
+  ],
   "symbols": {
     "internal": {},
     "themedResources": {}
